@@ -1,13 +1,8 @@
 # Skin Lesion Segmentation for Melanoma Detection with U-Net
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?style=flat-square)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.0-red?style=flat-square)
-![Dataset](https://img.shields.io/badge/Dataset-ISIC%202018-purple?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-
 Automated segmentation of dermoscopic skin lesion images using a **U-Net with ResNet-34 encoder**, trained and evaluated on the [ISIC 2018 Challenge Dataset](https://challenge.isic-archive.com/data/#2018). 
 
-Melanoma is the most serious form of skin cancer, and early detection is crucial to improve treatment outcomes. Automated skin lesion detection assist medical professionals in early diagnoses by highlighting lesion areas for further investigation.  Accurate lesion boundary detection is a critical step in computer-aided melanoma diagnosis and this pipeline achieves a **Dice coefficient of 0.872** on the ISIC 2018 validation dataset.
+Melanoma is the most serious form of skin cancer, and early detection is crucial to improve treatment outcomes. Automated skin lesion detection can assist medical professionals by highlighting lesion areas for further investigation.  Accurate lesion boundary detection is a critical step in computer-aided melanoma diagnosis and this pipeline achieves a **Dice coefficient of 0.872** on the ISIC 2018 validation dataset.
 
 ## Results
 
