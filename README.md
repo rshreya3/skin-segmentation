@@ -9,9 +9,6 @@ Automated segmentation of dermoscopic skin lesion images using a **U-Net with Re
 
 Melanoma is the most serious form of skin cancer, and early detection is crucial to improve treatment outcomes. Automated skin lesion detection assist medical professionals in early diagnoses by highlighting lesion areas for further investigation.  Accurate lesion boundary detection is a critical step in computer-aided melanoma diagnosis and this pipeline achieves a **Dice coefficient of 0.872** on the ISIC 2018 validation dataset.
 
-![Prediction Grid](results/figures/sample_prediction1.png)
-
-
 ## Results
 
 Evaluated on the held-out ISIC 2018 validation set (100 images never seen during training)
@@ -27,6 +24,7 @@ Evaluated on the held-out ISIC 2018 validation set (100 images never seen during
 > A Dice score of 0.872 means the predicted lesion boundary overlaps 87% of
 > the true lesion region on average. These results are comparable to published results.
 
+![Prediction Grid](results/figures/sample_prediction1.png)
 
 ## Model Development
 
