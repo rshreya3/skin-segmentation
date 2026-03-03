@@ -19,7 +19,7 @@ Evaluated on the held-out ISIC 2018 validation set (100 images never seen during
 | IoU (Jaccard) | 0.787 +/- 0.146 |
 | Pixel Accuracy | 0.9236 |
 
-![Score Distribution](results/figures/test_score_distribution.png)
+![Score Distribution](results/figures/test_score_.png)
 
 > A Dice score of 0.872 means the predicted lesion boundary overlaps 87% of
 > the true lesion region on average. These results are comparable to published results.
