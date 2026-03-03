@@ -154,7 +154,7 @@ skin-lesion-segmentation/
 │   └── inference.py              # Run inference on test data
 ├── models/                       # Saved model weights 
 ├── results/
-│   ├── figures/               
+│   └── figures/               
 ├── prediction/                   # Inference output will save here
 ├── requirements.txt
 └── README.md
@@ -163,5 +163,5 @@ skin-lesion-segmentation/
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT see [LICENSE](LICENSE).
 
